@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Space Mono', sans-serif;
+}
+
+body{
+    background: #c5cce7;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1), 0 5px 8px -8px rgba(0, 0, 0, 2);
+}
+
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.form-box form .inputfield{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .inputfield input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn{
+    background: rgb(67, 146, 211);
+    color: white;
+    border: 2px solid black;
+}
+
+.btn:hover{
+    opacity: 0.82;
+}
+
+.btn:active{
+    background: rgb(67, 146, 211);
+}
+
+
+
